@@ -1,11 +1,8 @@
 ## Project Timeline
 **Phase 1 – Data Handling and Pre-processing (Weeks 2.4–2.5)**
 - Literature review (AIS clustering, berth detection, validation methods)
-- AIS data cleaning and preprocessing
-  - Filtering by area, vessel type, speed
-- Satellite data preprocessing
-  - Cloud masking
-  - Mosaic generation
+- AIS data cleaning and preprocessing (signals below 1 knot, only cargos and tankers)
+- Satellite data preprocessing (mosaic generation)
 - Initial algorithm research and selection
 - Preparation of mid-term presentation
 
@@ -22,7 +19,8 @@
 
 **Phase 3 – Validation and Evaluation (Weeks 2.8–2.9)**
 - Satellite-based labeling of port infrastructure
-  - Manual annotation and/or automated masking
+  - Manual annotation
+  - Enhancing from shipnext
 - Spatial alignment between AIS-derived polygons and satellite data
 - Quantitative validation using spatial metrics:
   - Precision and Recall
