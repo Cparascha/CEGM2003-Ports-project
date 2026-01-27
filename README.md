@@ -3,6 +3,7 @@ This project is part of the CEGM 2003 course and focuses on identifying function
 
 
 Authors: 
-Christos Paraschakis
-Ilias Angelos Gavanozis Vlassis 
+
+Christos Paraschakis\
+Ilias Angelos Gavanozis Vlassis \
 Korina Detsi 
