@@ -11,12 +11,12 @@ It supports a **CPU-only workflow** (reliable on machines without a working GPU)
 
 ## What’s in this repo
 
-- `merged_satellite.tif` - input GeoTIFF - placeholder file in this repo but check surf drive for file
-- `tiles_4x4_overlays/` — overlays showing SAM segments per tile - placeholder file in this repo but check surf drive for file
+- `merged_satellite.tif` — input GeoTIFF *(placeholder in this repo; see SURF drive for the full file)*
+- `tiles_4x4_overlays/` — overlays showing SAM segments per tile *(placeholder in this repo; see SURF drive for the full files)*
 - `port_la_segments.gpkg` — polygonized SAM segments in the original CRS
-- 'SAM_labelled_polygons.gpkg' - cleaned version of the port_la_segments.gpkg to only account for the berths and jettys
-- 'Satellite_to_Segments.ipynb' - first attempt at segmentation
-- 'Segmentation.ipynb' - second attempt at segmentation (cleaned code to removed errors)
+- `SAM_labelled_polygons.gpkg` — cleaned version of `port_la_segments.gpkg` containing only the **berths and jetties**
+- `Satellite_to_Segments.ipynb` — first attempt at segmentation
+- `Segmentation.ipynb` — second attempt at segmentation *(cleaned code to remove errors)*
 
 ---
 
