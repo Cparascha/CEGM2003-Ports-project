@@ -46,7 +46,14 @@ It supports a **CPU-only workflow** (reliable on machines without a working GPU)
 ## Running the code
 
 ### 1) Place your input GeoTIFF
+This code was run in a Runpod machine that we had access to upon request to Riccardo
 Put your georeferenced GeoTIFF in the same directory as the script/notebook and set:
 
 ```python
 IMAGE_PATH = "merged_satellite.tif"
+
+If the merged_satellite.tif is too large use
+
+```python
+IMAGE_PATH = "merged_satellite_try2.tif"
+
