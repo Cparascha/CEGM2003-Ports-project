@@ -21,3 +21,7 @@ Spectral clustering models the data as a similarity graph and identifies cluster
 
 - Automatically specifying the number of clusters
 - Computationally expensive for large datasets (this is the case here) 
+
+
+
+The folder named "CNN" contains a U-Net that identifies land and water and then by giving an html of polygons for the above mentionded algorithms, it classifies trhe polygons in berthing and anchoring spots based on the surrounding pixels. If the surrounding pixels are only water , the polygon is classified as anchoring spot. If the surrounding pixels contain land, the polygon is classified as berthing spot. In order for teh CNN to run, the tiff file needs to be downloaded throught this link: https://surfdrive.surf.nl/s/2weXoi8gFA5358A 
