@@ -11,7 +11,7 @@ It supports a **CPU-only workflow** (reliable on machines without a working GPU)
 
 ## What’s in this repo
 
-- `merged_satellite.tif` (input GeoTIFF)
+- `merged_satellite.tif` - input GeoTIFF - placeholder file in this repo but check surf drive for file
 - `tiles_4x4_overlays/` — overlays showing SAM segments per tile
 - `port_la_segments.gpkg` — polygonized SAM segments in the original CRS
 - 'SAM_labelled_polygons.gpkg' - cleaned version of the port_la_segments.gpkg to only account for the berths and jettys
@@ -47,4 +47,4 @@ It supports a **CPU-only workflow** (reliable on machines without a working GPU)
 Put your georeferenced GeoTIFF in the same directory as the script/notebook and set:
 
 ```python
-IMAGE_PATH = "merged_satellite_try2.tif"
+IMAGE_PATH = "merged_satellite.tif"
