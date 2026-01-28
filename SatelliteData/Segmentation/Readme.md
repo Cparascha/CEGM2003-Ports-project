@@ -52,6 +52,7 @@ Put your georeferenced GeoTIFF in the same directory as the script/notebook and 
 ```python
 IMAGE_PATH = "merged_satellite.tif"
 
+```
 If the merged_satellite.tif is too large use
 
 ```python
