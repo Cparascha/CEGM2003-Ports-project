@@ -9,4 +9,7 @@ Authors:
 
 Christos Paraschakis\
 Ilias Angelos Gavanozis Vlassis \
-Korina Detsi 
+Korina Detsi \
+Pooja Trivedi\
+Srijan Jha\
+Margherita Marrocolo
