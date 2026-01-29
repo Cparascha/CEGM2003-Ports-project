@@ -18,6 +18,7 @@
 
 
 **Phase 3 – Validation and Evaluation (Weeks 2.8–2.9)**
+- CNN formulation to classify land and water in order to split polygons into berthing and anchorage points
 - Satellite-based labeling of port infrastructure
   - Manual annotation
   - Enhancing from shipnext
