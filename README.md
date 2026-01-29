@@ -13,6 +13,9 @@ A case study of the **Port of Los Angeles** is conducted using August 2024 AIS d
 and optical imagery. **K-means, DBSCAN, and Spectral clustering** are applied to detect
 port activities and validated using spatial metrics.
 
+**Kernel environment:**
+All required packages to run the code are specified in the environment.yml file. The code was developed and executed in VS Code; therefore, file paths may need to be adjusted to match your local environment. If you encounter any issues, please contact one of the authors.
+
 **Data access:**  
 https://surfdrive.surf.nl/s/Ek47keeeRdfYKij
 
