@@ -23,7 +23,7 @@ It supports a **CPU-only workflow** (reliable on machines without a working GPU)
 
 ## Requirements
 
-- Python 3.9+ recommended
+- Python 3.12.2+ recommended
 - Key packages:
   - `rasterio`, `geopandas`, `shapely`, `affine`
   - `opencv-python`, `matplotlib`, `Pillow`, `numpy`
