@@ -1,4 +1,4 @@
-##Land–Water Segmentation and Polygon Classification
+### Land–Water Segmentation and Polygon Classification
 
 This project processes satellite imagery to classify predefined polygons as either berthing spots or anchoring spots in a port area.
 
