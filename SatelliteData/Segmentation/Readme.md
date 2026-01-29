@@ -21,18 +21,6 @@ It supports a **CPU-only workflow** (reliable on machines without a working GPU)
 
 ---
 
-## Requirements
-
-- Python 3.12.2+ recommended
-- Key packages:
-  - `rasterio`, `geopandas`, `shapely`, `affine`
-  - `opencv-python`, `matplotlib`, `Pillow`, `numpy`
-  - `segment-anything` (Meta SAM)
-
-> Note: the script installs dependencies automatically via pip. In managed environments you may prefer to install them manually.
-
----
-
 ## How it works (pipeline summary)
 
 1. **Load** the GeoTIFF with `rasterio` to get CRS + affine transform  
