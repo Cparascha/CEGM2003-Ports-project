@@ -1,0 +1,52 @@
+name: Los_Angeles_Port_Analysis
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.12.2
+
+
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+
+
+  - geopandas
+  - shapely
+  - fiona
+  - pyproj
+  - contextily
+  - rasterio
+  - affine
+
+
+  - pillow
+  - opencv
+
+ 
+  - scikit-learn
+  - joblib
+  - threadpoolctl
+
+ 
+  - folium
+  - plotly
+  - holoviews
+  - hvplot
+  - tqdm
+  - ipython
+
+
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+
+
+  - pip
+  - pip:
+      - pygeohash
+      - huggingface_hub
+      - transformers
+      - "segment-anything @ git+https://github.com/facebookresearch/segment-anything.git"
