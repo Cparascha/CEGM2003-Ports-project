@@ -16,7 +16,6 @@ It supports a **CPU-only workflow** (reliable on machines without a working GPU)
 - `tiles_4x4_overlays/` —> overlays showing SAM segments per tile *(placeholder in this repo; see SURF drive for the full files: https://surfdrive.surf.nl/s/9xg8HqqH6EC2knm )*
 - `port_la_segments.gpkg` —> polygonized SAM segments in the original CRS
 - `SAM_labelled_polygons.gpkg` —> manually cleaned in QGIS version of `port_la_segments.gpkg` containing only the **berths and jetties**
-- `Satellite_to_Segments.ipynb` —> first attempt at segmentation
 - `Segmentation.ipynb` —> second attempt at segmentation *(cleaned code to remove errors)*
 
 ---
