@@ -1,4 +1,3 @@
-<img width="1279" height="804" alt="image" src="https://github.com/user-attachments/assets/26fe800a-620f-42d4-ba11-85a05bb82d7e" /><table>
   <tr>
     <td width="35%" align="center">
       <img src="AIS/Impacts.png" alt="IMPACTS – Port of LA" width="300">
